@@ -24,8 +24,7 @@ text-transform: uppercase;
 
 .hero_button
 {
-  width: 216.0px;
-height: 50.0px;
+
     background-color: #2196F3 ;
 }
 .button-text{
@@ -57,11 +56,9 @@ height: 294.0px;
 .team{
   background: #F5F4FA;
 }
-.team-foto{
-  width: 270.0px;
-height: 368.0px;
 
-}
+
+
 .footer{
   background: #2F303A;
 }
