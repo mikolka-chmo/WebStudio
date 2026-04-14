@@ -1,8 +1,7 @@
-
-.nav{
-    
- color: #212121 ;
-
+:root
+{
+   --main-text-color: #212121 ;
+   --hover-color: #2196F3;
 }
 .hero
 {
@@ -11,10 +10,68 @@
 }
 .hero_text
 {
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 2.64px;
+
 text-transform: uppercase;
 }
 
 .hero_button
 {
+  width: 216.0px;
+height: 50.0px;
     background-color: #2196F3 ;
+}
+.button-text{
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+}
+.gen_text{
+  color: var(--main-text-color);
+  text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+
+}
+.us-img{
+  width: 370.0px;
+height: 294.0px;
+
+}
+.team{
+  background: #F5F4FA;
+}
+.team-foto{
+  width: 270.0px;
+height: 368.0px;
+
+}
+.footer{
+  background: #2F303A;
+}
+.contact-list{
+  color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+
 }
