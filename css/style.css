@@ -72,3 +72,9 @@ line-height: 24px;
 letter-spacing: 0.42px;
 
 }
+.contact-list{
+  color: var(--main-text-color);
+}
+.nav_li{
+  color: var(--main-text-color);
+}
