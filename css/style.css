@@ -4,13 +4,53 @@
    --hover-color: #2196F3;
 }
 .header-logo{
+color: var(--main-text-color);
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+width: 64.0px;
+height: 25.0px;
+padding: 1px 6px;
+margin: 24px 81px;
+
+}
+.header_item{
+  color:var(--main-text-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+text-decoration: none;
+width: 19.0px;
+padding:53px 15px ;
 
 
 }
+.contact_list{
+  color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+width: 122.0px;
+height: 16.0px;
+padding:32px 50px 31px ;
+}
 .hero
 {
+
   background-color: #2F303A ;  
   text-align: center;
+  width: 1600.0px;
+height: 600.0px;
+
 }
 .hero_text
 {
@@ -22,14 +62,18 @@ font-style: normal;
 font-weight: 900;
 line-height: 60px;
 letter-spacing: 2.64px;
+margin: 0px 452px 0px;
+padding-top :200px;
 
 text-transform: uppercase;
 }
 
 .hero_button
 {
-
-    background-color: #2196F3 ;
+  border-radius: 4px;
+background: #2196F3;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+ background-color: #2196F3 ;
 }
 .button-text{
   color: #FFF;
@@ -66,19 +110,68 @@ height: 294.0px;
 .footer{
   background: #2F303A;
 }
-.contact-list{
-  color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
 
-}
 .contact-list{
   color: var(--main-text-color);
 }
 .nav_li{
   color: var(--main-text-color);
 }
+.gen_minitext{
+  color: var(--main-text-color);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.secondary_minitext{
+color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+.sec-gen-text{
+  color: var(--main-text-color);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.team-foto{
+width: 270.0px;
+height: 368.0px;
+}
+.footer_logo{
+  color: #FFF;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+width: 145.0px;
+height: 31.0px;
+text-decoration: none;
+}
+.contact-list{
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+width: 136.0px;
+height: 21.0px;
+
+}
+
