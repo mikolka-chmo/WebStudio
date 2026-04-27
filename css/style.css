@@ -15,8 +15,24 @@ width: 64.0px;
 height: 25.0px;
 padding: 1px 6px;
 margin: 24px 81px;
+}
+.header{
+  display: flex;
 
 }
+.navigate{
+    display: flex;
+
+}
+.header_list{
+  display: flex;
+    justify-content: space-between;
+}
+.contact{
+  display: flex;
+}
+
+
 .header_item{
   color:var(--main-text-color);
 font-family: Roboto;
@@ -27,7 +43,7 @@ line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
 width: 19.0px;
-padding:53px 15px ;
+padding: 26px 15px ;
 
 
 }
