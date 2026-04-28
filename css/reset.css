@@ -38,3 +38,7 @@ display: block  ;
 .header-logo{
     text-decoration: none;
 }
+.item_link{
+    color:white;
+    text-decoration: none;
+}

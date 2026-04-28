@@ -16,8 +16,17 @@ height: 25.0px;
 padding: 1px 6px;
 margin: 24px 81px;
 }
+.web {
+  color: #2196f3;
+}
+
+.studio {
+  color: #212121;
+}
 .header{
   display: flex;
+  border:1cm;
+  border-color: #757575;
 
 }
 .navigate{
@@ -178,6 +187,9 @@ width: 145.0px;
 height: 31.0px;
 text-decoration: none;
 }
+.studi{
+  color: #FFF;
+}
 .contact-list{
 color: rgba(255, 255, 255, 0.60);
 font-family: Roboto;
@@ -190,4 +202,16 @@ width: 136.0px;
 height: 21.0px;
 
 }
+.main_ul{
+  display: flex;
 
+}
+.port_item{
+border-radius: 4px;
+background: #2196F3;
+}
+
+.port_ul{
+display: flex;
+word-wrap: 3;
+}
