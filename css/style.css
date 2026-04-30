@@ -122,7 +122,7 @@ font-weight: 900;
 line-height: 30px;
 letter-spacing: 0.96px;
 }
-.us .conteiner{
+.us{
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -141,7 +141,7 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 margin-bottom: 10px;
 }
-.about .conteiner{
+.about{
   padding-top: 94px;
   padding-bottom: 94px;
   text-align: center;
@@ -170,7 +170,7 @@ letter-spacing: 1.08px;
 height: 294.0px;
 }
 
-.team .conteiner{
+.team{
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -189,14 +189,39 @@ letter-spacing: 1.08px;
 .team-ul{
   display: flex;
   gap: 30px;
+  margin-top: 50px;
 }
 .team-foto{
-  margin-top: 50px;
 width: 270.0px;
-height: 368.0px;
+height: 260.0px;
+}
+.team_box{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: var(--main-color);
+}
+.team_p{
+  color: var(--main-text-color);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.p_span{
+  color: var(--addtext-color);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+
 }
 
-.footer .conteiner{
+.footer{
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -236,6 +261,15 @@ margin-bottom: 20 ;
 }
 .studi{
   color: var(--main-color);
+}
+.f_span{
+  color: var(--main-color);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+
 }
 .contact-list{
 color: var(--footer-contact);
