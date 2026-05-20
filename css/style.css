@@ -23,7 +23,7 @@ outline: 1px solid red;
 }
 .header-con{
 display: flex;
-justify-content: center;
+align-items: center;
 }
 .header-logo{
 color: var(--main-text-color);
@@ -86,10 +86,6 @@ color:var(--hover-color)
   padding-top: 200px; 
   text-align: center;
 }
-.hero .conteiner{
-  display: flex;
-  flex-direction: column;
-}
 .hero_text
 {
 color: var(--main-color);
@@ -132,7 +128,7 @@ letter-spacing: 0.96px;
 }
 .us_minitext{
   display: flex;
-  gap:  100px;
+  gap: 30px;
 
 }
 .gen_minitext{
