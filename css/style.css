@@ -132,7 +132,7 @@ letter-spacing: 0.96px;
 }
 .us_minitext{
   display: flex;
-  gap: 30px;
+  gap:  100px;
 
 }
 .gen_minitext{
