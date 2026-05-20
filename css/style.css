@@ -86,6 +86,10 @@ color:var(--hover-color)
   padding-top: 200px; 
   text-align: center;
 }
+.hero .conteiner{
+  display: flex;
+  flex-direction: column;
+}
 .hero_text
 {
 color: var(--main-color);
