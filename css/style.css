@@ -23,7 +23,7 @@ outline: 1px solid red;
 }
 .header-con{
 display: flex;
-align-items: center;
+justify-content: center;
 }
 .header-logo{
 color: var(--main-text-color);
