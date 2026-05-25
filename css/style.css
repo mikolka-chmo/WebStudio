@@ -283,4 +283,47 @@ letter-spacing: 0.42px;
 .contact-list:first-child{
   margin-top: 20px;
 }
+.main_ul{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.port_item{
+  background-color: var(--team-background-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.port_item:hover{
+  background-color:#2196F3;
+  box-shadow: rgba(0, 0, 0, 0.10);
+}
+.item_link{
+  color: var(--main-text-color);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.48px;
 
+}
+.item_link:hover{
+  color: var(--main-color);
+}
+.port_foto{
+  
+}
+.li_foto{
+  display: flex;
+  justify-self: normal;
+  align-items: center;
+  border: 1px solid #EEE;
+background: #FFF;
+
+}
+.port_team{
+  padding: 20px 24px;
+  
+}
