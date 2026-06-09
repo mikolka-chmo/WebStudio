@@ -271,6 +271,9 @@ line-height: 24px;
 letter-spacing: 0.42px;
 
 }
+.port_hero .container{
+  gap: 34px;
+}
 .contact-list{
 color: var(--footer-contact);
 font-family: Roboto;
@@ -288,6 +291,7 @@ letter-spacing: 0.42px;
   gap: 8px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .port_item{
   background-color: var(--team-background-color);
@@ -312,18 +316,20 @@ letter-spacing: 0.48px;
 .item_link:hover{
   color: var(--main-color);
 }
-.port_foto{
-  
-}
+
 .li_foto{
   display: flex;
-  justify-self: normal;
+  flex-direction: column;
   align-items: center;
   border: 1px solid #EEE;
 background: #FFF;
-
 }
 .port_team{
   padding: 20px 24px;
   
 }
+.card_ul{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
