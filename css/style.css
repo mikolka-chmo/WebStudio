@@ -355,3 +355,221 @@ padding-top:21% ;
 transform:translateY(-64%);
 opacity: 0;
 }
+
+@media screen and (max-width: 1199px) {
+  html, 
+  body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
+  }
+
+  .header,
+  .hero, 
+  .us, 
+  .about, 
+  .team, 
+  .footer {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .conteiner {
+    width: 100% !important;
+    max-width: 768px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .hero_text {
+    width: 100% !important;
+    max-width: 360px !important;
+    font-size: 26px !important;
+    line-height: 1.62 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .us_minitext {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+  }
+
+  .minitext {
+    width: 100% !important;
+  }
+
+  .about {
+    display: none !important;
+  }
+
+  .team-ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+  }
+
+  .team-ul > li {
+    width: 100% !important;
+  }
+
+  .team-foto {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .header-con {
+    justify-content: space-between !important;
+  }
+
+  .contact {
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .conteiner {
+    width: 100%;
+    max-width: 768px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .contact {
+    flex-direction: column;
+    gap: 10px;
+    margin-left: auto;
+  }
+  .hero_text {
+    width: 100%;
+    max-width: 528px;
+    font-size: 36px;
+  }
+
+  .us_minitext {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .about {
+    display: none;
+  }
+  .team-ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .team-foto {
+    width: 100%;
+    height: auto;
+  }
+  .footer {
+    text-align: center;
+  }
+} 
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  /* Контейнер */
+  .conteiner {
+    width: 100% !important;
+    max-width: 768px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Картинки адаптивные */
+  img, .port_foto {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+  }
+
+  /* Шапка */
+  .header .conteiner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .navigate {
+    display: flex !important;
+    align-items: center !important;
+    gap: 50px !important;
+  }
+
+  .contact {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-left: auto !important;
+  }
+
+  /* Кнопки фильтра в Портфолио */
+  .main_ul {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    margin-bottom: 30px !important;
+  }
+
+  /* Сетка карточек в 2 колонки (планшет) */
+  .card_ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+    padding: 0 !important;
+  }
+
+  .li_foto {
+    width: 100% !important;
+  }
+
+  /* Футер */
+  .footer {
+    padding: 60px 0 !important;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  /* Контейнер */
+  .conteiner {
+    width: 100% !important;
+    max-width: 480px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  img, .port_foto {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .main_ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    justify-content: flex-start !important;
+    margin-bottom: 40px !important;
+  }
+
+  .card_ul {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    padding: 0 !important;
+  }
+
+  .li_foto {
+    width: 100% !important;
+  }
+}
