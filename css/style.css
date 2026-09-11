@@ -191,6 +191,10 @@ letter-spacing: 1.08px;
   gap: 30px;
   margin-top: 50px;
 }
+.team_li
+{
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px 0 rgba(0, 0, 0, 0.20);
+}
 .team-foto{
 width: 270.0px;
 height: 260.0px;
@@ -324,6 +328,7 @@ letter-spacing: 0.48px;
   border: 1px solid #EEE;
 background: #FFF;
 position: relative;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 1px 4px 6px 0 rgba(0, 0, 0, 0.16);
 }
 .li_foto:hover{
   .crak_over{opacity: 1;}
